@@ -3,7 +3,7 @@ name: Diabetes Retraining Pipeline with Data Drift Detection
 on:
   push:
     paths:
-      - 'data/new_data.csv'
+      - 'data/new_data_V2.csv'
 permissions:
   contents: write
 jobs:
